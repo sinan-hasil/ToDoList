@@ -1,0 +1,30 @@
+html,body{
+    height: 100%;
+}
+
+.container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    form{
+        input[type="text"]{
+            border: none;
+            border-bottom: 1px solid #0d6efd;
+            height: 45px;
+            outline: 0;
+        }
+    }
+    
+    .new-div{
+        display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        p{
+            cursor: default;
+            margin-top: 15px;           
+        }
+    }
+}
